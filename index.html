@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Japanda English to Japanese Dictionary</title>
+    <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
+  </head>
+	
+  <header role="header">
+	  <div class ="icon"> <img src="http://i65.tinypic.com/9av18g.jpg" border="0" alt="Japanda"></div>
+       <h2>Japanda English-Japanese and Kanji Dictionary</h2>
+  </header>
+        <main role="main" class="container">
+            <hr class="style-two">
+  <body>
+
+  <div class="startPage">
+      <div class=" container">
+          <form class="startForm">
+             <fieldset name="search-bar" >
+              <label for="search-term">
+                <input class="search-text" type="text" name="search-term" placeholder="Type English here...">
+              </label>
+              <input class="start-search-button search-button" type="submit" value="Find!">
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    <div class="appendNav" role="nav">
+         <form class="bar">
+          <fieldset name="search-bar">
+            <label for="search-term">
+              <input class="search-kanji-text" type="text" name="search-term" id="js-search-term" placeholder="Enter Kanji here...">
+            </label>
+            <input class="search-button" type="submit" value="Find!">
+          </fieldset>
+        </form>
+    </div>
+	     <section class="results" role='region'>
+      <!-- title row -->
+      <div class="row">
+        <div class="col-title">
+          <div class="word-title">
+            results
+            <span class="results-count"></span>
+            <span class="pink">/</span>
+            <span class="orange">/</span>
+            <span class="blue">/</span>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="definition-title">
+            definition
+            <span class="pink">/</span>
+            <span class="orange">/</span>
+            <span class="blue">/</span>
+          </div>
+        </div>
+        </div>
+      <div class="js-results"></div>
+    </section>
+	<div class="loading-animation">
+      <span class="pink one">&#10074;</span>
+      <span class="orange two">&nbsp;&nbsp;&#10074;&nbsp;&nbsp;</span>
+      <span class="blue three">&#10074;</span>
+    </div>
+  
+	  <footer role="footer">
+       <div class="footerText">
+           <p>Created by: Brian J &copy; Eng/JP Dictionary App</p>
+       </div>
+   	  </footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
