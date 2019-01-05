@@ -1,0 +1,69 @@
+*{
+	box-sizing: border-box;
+	
+}
+
+header{
+	background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	text-align: center;
+}
+
+body {
+	background: #E55D87;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family: 'family', sans-serif;
+  
+}
+
+.icon{
+	width: 100px;
+	height: 100px;
+}
+.icon img{
+	width: 99px;
+	height: 99px;
+}
+
+.startPage{
+	text-align: center;
+}
+
+.appendNav{
+	text-align: center;
+}
+
+/* Results */
+
+.results {
+	display: none;
+}
+
+.word-title,
+.definition-title{
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.results-cont {
+	font-size: 15px;
+}
+
+hr {
+	max-width: 1000px;
+	border=top: 1px solid #999;
+}
+
+.word-label {
+	display: none;
+}
+
+.word-result,
+.definition-result {
+  margin-bottom: 20px;
+}
